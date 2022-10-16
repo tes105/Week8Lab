@@ -22,7 +22,7 @@ public class StreetAges {
         for(j=0;j<numHouses;j++){
             System.out.println("How many people live in number " + houseNumbers[j] + "?");
             numResidents = keyboard.nextInt();
-            houseAges = new int[numHouses][];
+            houseAges = new int[numHouses][//length?];
         }
         System.out.println(houseNumbers[2] + " " + houseAges[2][0]);
     }
